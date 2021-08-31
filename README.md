@@ -105,7 +105,9 @@
 
 ## Sixths: Specific Ip (Htaccess)
 
-<p>This way is to only allow the admin ip address in the htaccess using the following code</p>
+<p>This way is to only allow the admin ip address and it's better than checking at the backend because it's more safe (if configured right)</p>
+
+<p>To use this way you will have to use the following code in the ".htaccess" file</p>
 
 ```htaccess
 <RequireAll>
